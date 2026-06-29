@@ -1,4 +1,4 @@
-@use '../abstracts/index' as *;
+@use '../abstracts' as *;
 
 .studies {
   @include desktop-above {
