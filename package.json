@@ -1,0 +1,24 @@
+{
+  "name": "positivus",
+  "version": "1.0.0",
+  "description": "Яркий, современный и отзывчивый лендинг для прогрессивного digital-агентства. Проект демонстрирует переход от чистого CSS к автоматизированной профессиональной разработке: с использованием препроцессора Sass, строгой методологии БЭМ и оптимизации сборки через кастомные npm-скрипты.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yosabyrka/positivus.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/yosabyrka/positivus/issues"
+  },
+  "homepage": "https://github.com/yosabyrka/positivus#readme",
+  "devDependencies": {
+    "sass": "^1.101.0"
+  }
+}
