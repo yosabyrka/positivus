@@ -4,7 +4,8 @@
   "description": "Яркий, современный и отзывчивый лендинг для прогрессивного digital-агентства. Проект демонстрирует переход от чистого CSS к автоматизированной профессиональной разработке: с использованием препроцессора Sass, строгой методологии БЭМ и оптимизации сборки через кастомные npm-скрипты.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "watch": "sass src/styles/main.scss dist/styles/main.css --watch",
+    "build": "sass src/styles/main.scss dist/styles/main.css --style=compressed --no-source-map"
   },
   "repository": {
     "type": "git",
